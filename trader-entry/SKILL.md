@@ -88,8 +88,10 @@ day bar by bar without waiting.
 4. When it triggers, say the time and the price, and that nothing was placed.
    If the trigger is more than a bar old, say that too: a late entry is a
    different trade.
-5. Hand off to `/trader-exit` to set the stop and the target BEFORE anything
-   is bought.
+5. Hand off to `/trader-chart SYMBOL` for the annotated chart (ORB, FVG,
+   iFVG, liquidity, PDH/PDL, BOS/MSS, entry, stop, TP1, TP2) and the
+   confluence grade, then to `/trader-exit` to set the stop and the target
+   BEFORE anything is bought.
 
 ## Example: the reel
 

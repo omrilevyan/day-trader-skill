@@ -148,7 +148,9 @@ are in the calendar.
 3. After 9:50 AM ET (10:15 is the classic): `scan.py orb`. Tell the user how
    many usable charts broke their range and when, and that a later hit is
    closer to the price now.
-4. The user picks one chart. Hand it on: `/trader-news TICKER` (what is moving
+4. Run `/trader-chart` (`chart.py watchlist`) on the ORB hits: it draws an
+   annotated chart for every A or B setup and says why the rest were left out.
+5. The user picks one chart. Hand it on: `/trader-news TICKER` (what is moving
    it), then `/trader-entry TICKER` (the entry bar by bar). Never pick for them.
 
 ## Example: the reel
